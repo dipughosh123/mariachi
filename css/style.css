@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 3% 4%;
+}
+.bars{
+  position: absolute;
+  top:20px;
+  right: 20px;
+  z-index: 2;
+  visibility: hidden;
+}
+nav{
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    background-color: #4a1831;
+}
+nav ul{
+    display:inline-flex;
+    gap: 35px;
+    
+    list-style: none;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffd7ad;
+    font-size: 25px;
+}
+.mirchi-sec{
+    height: 717px;
+    background-image:url('../images/Image1.png');
+    background-size: cover;
+}
+.mirchi-div{
+    width: 50%;
+}
+.para1{
+    color: #ffd7ad;
+    font-size: 30px;
+    margin-top:80px;
+    margin-bottom: 50px;
+}
+.ordernow{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color:#4a1831;
+    background-color: #ffd7ad;
+}
+.mariachi{
+    font-size: 120px;
+    color:#ffd7ad;
+    margin-top:30px;
+    
+}
+.menu-div{
+    text-align: center;
+    width:50%;
+    margin: auto;
+
+}
+.dontmiss{
+    font-size: 63px;
+    color: #4a1831;
+    margin-bottom:50px;
+}
+.menu-divp{
+    font-size: 25px;
+    color:#4a1831;
+    margin-bottom: 50px;
+}
+.seemenu{
+    color:#ffd7ad;
+    text-transform: uppercase;
+    font-size: 25px;
+    background-color: #4a1831;
+    padding:10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.menu-sec{
+    background-color: #ffd7ad;
+}
+.simplepic-sec{
+    width: 100%;
+    height:350px;
+    background-image: url('../images/Rectángulo1.png');
+    background-size: cover;
+}
+.about-sec{
+    background-color:#ffd7ad;
+}
+
+.aboutdiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutfitem1{
+    width:50%;
+    padding-right: 20px;
+}
+.aboutfitem2{
+    width:50%;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutfitem1 img{
+    width: 100%;
+}
+.bread-sec{
+    height:750px;
+    background-image: url('../images/Vector Smart Object 2.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ffd7ad;
+    
+}
+.t25{
+    font-size: 167px;
+    color:#e63956;
+    font-weight: 700;
+}
+.discount{
+    font-size: 64px;
+    color:#55112e;
+    
+}
+.tacos{
+    font-size: 104px;
+    color:#6cc5ac;
+    font-weight: 700;
+}
+.offers-sec{
+    background-color: #4a1831;
+}
+.offers-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.offersitem1{
+    width:50%;
+    display: flex;
+    align-items: center;
+    
+}
+.offersitem2{
+    width:50%;
+    display: flex;
+    align-items: center;
+    
+}
+.seeoffers{
+    font-size: 75px;
+    color: #ffd7ad;
+}
+.offersitem2 img{
+    width:80%;
+}
+.pedro-sec{
+    background-image: url('../images/Place\ Your\ Image\ Here3.png');
+
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode:darken
+}
+.pedro-div{
+    padding:50px 15%;
+    margin:auto;
+    text-align: center;
+    color:#ffd7ad;
+}
+.pedro-divh21{
+    font-size: 41px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pedro-divh22{
+    font-size: 45px;
+}
+.getour-sec{
+    background-color: #ffd7ad;
+}
+.getour-div{
+    padding: 70px 15%;
+    text-align: center;
+}
+.latest{
+    color: #4a1831;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+.latestpara{
+    color:#4a1831;
+    font-size: 29px;
+    margin-bottom: 50px;
+}
+.input1{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding:10px;
+    height: 50px;
+    width: 300px;
+}
+.button1{
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding:10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#ffd7ad;
+    background-color: #4a1831;
+   transform: translate(-100px,4px);
+    
+}
+.form1{
+    transform:translate(50px,0px);
+}
+
+
+

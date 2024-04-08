@@ -1,0 +1,107 @@
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .container{
+        padding: 1% 2%;
+    }
+    nav ul{
+        display: block;
+        text-align: center;
+        background-color: #4a1831;
+        width:100%;
+        z-index: 1;
+        padding: 20px;
+    }
+    nav ul li {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .bars{
+        visibility:visible;
+    }
+    .mirchi-div{
+        width: 100%;
+        text-align: center;
+    }
+    .menu-div{
+        text-align: center;
+        width:100%;
+        
+    
+    }
+    .simplepic-sec{
+        width: 100%;
+        height:150px;
+        
+       
+    }
+    .aboutfitem1{
+        width:100%;
+        padding-right: 0px !important;
+       
+    }
+    .aboutfitem2{
+        width:100%;
+        padding-left: 0px !important;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .secondnddiv-child{
+        text-align: center;
+    }
+    .bread-div{
+        text-align: center;
+    }
+    .offers-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offersitem1{
+        width:100%;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .offers1cchild{
+        text-align: center;
+    }
+    .offersitem2{
+        margin-top: 20px;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .pedro-div{
+        padding:50px 5%;
+        margin:auto;
+        text-align: center;
+        color:#ffd7ad;
+    }
+    .input1{
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding:10px;
+        height: 50px;
+        width: 300px;
+    }
+    .button1{
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding:10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        color:#ffd7ad;
+        background-color: #4a1831;
+       transform: translate(0px,0px);
+       margin-top: 20px;
+        
+    }
+    .form1{
+        transform:translate(0px,0px);
+    }
+}
